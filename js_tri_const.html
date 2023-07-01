@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <script>
+    var log;
+    function main( ) {
+        log = document.getElementById("output");
+        var a = 10;
+        var h =  8;
+        var s = a * h / 2;
+        var str;
+        str  = "底辺の長さは" + a + "です。<br>";
+        str += "高さは" + h +"です。<br>";
+        str += "この三角形の面積は"+ s +"です。<br>";
+        log.innerHTML = str;
+    }
+
+    function reset( ) {
+        log = document.getElementById("output");
+        log.innerHTML = "";
+    }
+    </script>
+</head>
+<body>
+    <button type="button" onClick="main( )">実行</button>　
+    <button type="button" onClick="reset( )">リセット</button>
+    <div id="output"></div>
+</body>
+</html>
