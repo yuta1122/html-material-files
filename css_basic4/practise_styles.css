@@ -1,0 +1,55 @@
+#wrapper {
+    width:   600px;
+    height:  400px;
+    margin:    4px;
+    border: solid 2px dimgray;
+    background-color: silver;
+}
+#header {
+    height:  120px;
+    margin:    4px;
+    border: solid 2px black;
+}
+/*--------------------------------------------------------*/
+#hdimg {
+    height:   60px;
+    margin:    4px;
+    border: solid 2px black;
+    text-align: center;
+    font-size: 32pt;
+}
+/*--------------------------------------------------------*/
+.menu {
+    float: left;
+    width:   133px;        /* 600 - (4+2)*2 = 588, 588 / 4 = 147, 147 - (5+2)*2 = 133 */
+    height:   35px;
+    margin:    5px;
+    border: solid 2px blue;
+    text-align: center;
+    font-size: 16pt;
+}
+/*--------------------------------------------------------*/
+#index {
+    float: left;
+    width:   180px;
+    height:  200px;
+    margin:    4px;
+    border: solid 2px red;
+    text-align: center;
+}
+#contents {
+    float: left;
+    width:   396px;        /* 600 - (4+2)*2 - (180 + (4+2)*2) = 396 */
+    height:  200px;
+    margin:    4px;
+    border: solid 2px chocolate;
+    text-align: center;
+}
+#footer {
+    float: left;
+    width:   588px;        /* 600 - (4+2)*2 = 588 */
+    height:   44px;        /* 400 - (4+2)*2 - (120 + (4+2)*2) - (200 + (4+2)*2) = 44 */
+    margin:   4px;
+    border: solid 2px navy;
+    text-align: right;
+}
