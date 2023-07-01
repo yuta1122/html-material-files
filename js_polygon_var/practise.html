@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="practise_styles.css">
+    <script src="practise_main.js"></script>
+</head>
+<body>
+    <button type="button" onClick="main( )">実行</button>　
+    <button type="button" onClick="reset( )">リセット</button>
+    <form name="fm">
+        正<input type="text" name="var_n" value="6" size="10">角形<br>
+        半径（ピクセル）：    <input type="text" name="var_r" value="100" size="20"><br>
+        線の太さ（ピクセル）：<input type="text" name="var_t" value="2"   size="20"><br>
+    </form>
+    <canvas id="h_canvas" width="400" height="400" style="border:2px solid #000000"></canvas>
+    <div id="output"></div>
+</body>
+</html>
